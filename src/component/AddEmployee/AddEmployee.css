@@ -1,11 +1,11 @@
-.add{
+.add-employee{
     text-align: center;
     background-color: gray;
     color: black;
     border: 2px solid black;
     border-radius: 10px;
-    min-height: 450px;
     margin: 10px;
-    font-size: 20px;
-    /* font-weight: 400; */
+}
+.employee-img{
+    height: 100px;
 }
