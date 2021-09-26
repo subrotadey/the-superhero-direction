@@ -1,0 +1,38 @@
+.employee{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3fr, 1fr);
+    background-color: white;
+    grid-auto-rows: auto;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.employee:hover{
+    border: 2px solid rgba(255, 255, 255, 0.788);
+    background-color: rgba(255, 255, 255, 0.795);
+}
+.employee img{
+    display: flex;
+    align-items: center;
+}
+.cart-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+}
+.hire-btn{
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
